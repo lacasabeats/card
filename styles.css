@@ -1,0 +1,83 @@
+@media (max-width:375px) {
+    .container {
+       width: 375px;
+   }
+}
+
+@media (min-width:376px) {
+   .container {
+       width: 1440px;
+       background-color: hsl(233, 47%, 7%);
+       min-height: 100vh;
+   }
+}
+
+.container {
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.card {
+    display: flex;
+    border-radius: 7px;
+   background-color: hsl(244, 38%, 16%);
+    width: 80%;
+    overflow: hidden;
+    height: fit-content;
+    
+}
+
+.text, .image {
+    flex: 1;
+    width: 100%;
+    margin: 0;
+}
+
+.text {
+    font-family: inter, sans-serif;
+    padding: 5%;
+    text-align: left;
+    line-height: 2.3rem;
+    margin-left: 3%;
+    margin-right: 9%;
+}
+
+.text2 {
+    font-family: Lexend-Leca, sans-serif;
+    line-height: 1.5rem;
+    opacity: 0.6;
+    margin-right: 9%
+}
+
+.backgroundimage {
+    background-color: hsl(277, 100%, 61%);
+
+}
+
+.image {
+    display: flex;
+    height: 100%;
+    opacity: 0.7;
+}
+
+
+.datos {
+    font-family: inter;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.table {
+        width: 100%;
+        font-family: lexend-leca, sans-serif;
+        font-size: 0.75rem;
+        line-height: 1.15rem;
+}
+
+#resaltado {
+            color: hsl(277, 64%, 61%);
+}
